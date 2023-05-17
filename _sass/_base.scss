@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,100&family=Open+Sans:ital,wght@0,500;1,600&family=Roboto:wght@300&display=swap');
 // Typography
 
 p,
@@ -17,7 +17,9 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Open Sans';
 }
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
